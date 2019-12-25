@@ -72,5 +72,7 @@ chmod a+x scr.sh
 1. Double click on the record.sh to start the recording
 2. To stop the recording press **ENTER** in terminal 
 
+**For more adb commands, please checkout** https://gist.github.com/thetpaingtun/a2c0c91a123a2cf2382882930477b58b
+
 
 
