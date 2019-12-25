@@ -11,5 +11,5 @@ for /f "delims=:. tokens=1-4" %%t in ("%TIME: =0%") do (
 mkdir "%saved_path%"
 
 rem change the path to adb
-adb shell screenrecord /sdcard/test.mp4
-adb pull /sdcard/test.mp4 %saved_path%/%FILENAME%
+adb shell screenrecord /sdcard/vid.mp4
+adb pull /sdcard/vid.mp4 %saved_path%/%FILENAME%
