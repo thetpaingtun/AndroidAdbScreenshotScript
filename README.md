@@ -30,20 +30,47 @@ cmd /c "D:\path_to_script\win\scr.bat"
 3. Then click on Next and enter the shortcut name 
 4. Now you can pin the shortcut to the taskbar.
 
+
+### Mac
+
+1. Download mac.zip from https://github.com/thetpaingtun/AndroidAdbScreenshotScript/releases
+2. Open scr.sh in text editor
+3. Search for saved_path and update the path that you want to save the screenshot images:
+```
+saved_path=/Users/user/Desktop/screenshots
+```
+4. If your system has adb installed and added to the PATH, you can skip this step.If not,search for adb(there are three places) and update the path to adb.The adb can be found inside platform-tools/adb.exe.After update,scr.sh should be something like :
+
+```
+/Users/path_to_adb/adb shell ...
+```
+5. Launch the terminal and make the shell script executable :
+```
+chmod a+x scr.sh
+```
+6. Repeat the above steps for record.sh 
+
+
 ## Usage 
 
 1. Connect the phone through USB cable 
 2. Turn on the developer options 
 3. Enable USB debugging mode.
 
-### For screenshot
-1. Double click on the scr.bat
+### For screenshot (Win & Mac)
+1. Double click on the scr.bat or scr.sh
 2. Screenshot image will be found in the saved path you configured in the batch file.
 
-### For recording
+### For recording (Win)
 
 1. Double click on the record.bat to start the recording.
 2. To stop the recording, press **CTRL+C"** in CMD
 3. When the CMD prompt to Terminate the batch job, enter N
+
+### For recording (Mac)
+
+1. Double click on the record.sh to start the recording
+2. To stop the recording press **ENTER** in terminal 
+
 
 
