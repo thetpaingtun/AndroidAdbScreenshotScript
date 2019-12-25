@@ -6,7 +6,7 @@ The script to capture and record the screen using ADB
 
 ### Windows
 
-1. First download screenshotscript-v1.0.0.zip from https://github.com/thetpaingtun/AndroidAdbScreenshotScript/releases
+1. First download win.zip from https://github.com/thetpaingtun/AndroidAdbScreenshotScript/releases
 2. After unzipping it, go into win folder and open scr.bat in text editor.
 3. Search for save_path and update the path that you want to store the screenshot images :
 ```
@@ -23,7 +23,7 @@ That's all for scr.bat.
 
 #### Additional Step (Create a shortcut so that you can pin it to the task bar)
 1. Right click desktop and select new > shortcut
-2. For the target location enter 
+2. For the target location, enter 
 ```
 cmd /c "D:\path_to_script\win\scr.bat"
 ```
