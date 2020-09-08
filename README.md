@@ -48,7 +48,11 @@ saved_path=/Users/user/Desktop/screenshots
 ```
 chmod a+x scr.sh
 ```
-6. Repeat the above steps for record.sh 
+6. run the following command so that you don't need to write .sh everytime you run it from terminal
+```
+ mv scr.sh scr
+```
+7. Repeat the above steps for record.sh 
 
 
 ## Usage 
